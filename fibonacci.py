@@ -60,9 +60,13 @@
 # parrot(**d)
 
 def make_incrementor(n):
-     return lambda x: x + 2*n
+     return lambda x: x + n
 
 f = make_incrementor(76)
 print(f)
 print(f(1))
 print('hello')
+
+#this function is written just for working with git
+def divide(x,y):
+	return x/y
