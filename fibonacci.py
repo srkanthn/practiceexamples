@@ -60,8 +60,9 @@
 # parrot(**d)
 
 def make_incrementor(n):
-     return lambda x: x + n
+     return lambda x: x + 2*n
 
 f = make_incrementor(76)
 print(f)
 print(f(1))
+print('hello')
